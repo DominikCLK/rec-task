@@ -1,0 +1,20 @@
+{
+  "name": "vanto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "show-report": "npx playwright show-report",
+    "test:all": "BASE_URL=$BASE_URL API_URL=$API_URL DEFAULT_USER_EMAIL=$DEFAULT_USER_EMAIL DEFAULT_USER_PASSWORD=$DEFAULT_USER_PASSWORD npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.12.12"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
